@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugReport>
+	<information category="Header">
+		<creationDate>19 FEB 2022</creationDate>
+		<id>HW02001</id>
+		<author>Olga Ivasenko</author>
+		<assignedTo>Vadim Ksendzov</assignedTo>
+		<bugStatus>Assigned</bugStatus>
+		<title>Submit button on Login page is not clickable</title>
+		<severity>Critical</severity>
+		<priority>High</priority>
+	</information>
+	<information category="Environment">
+		<resource>https:/xxx/yyy/zzz</resource>
+		<OS>Windows 10, 64</OS>
+		<browser>Chrome Version 98.0.4758.102</browser>
+		<resourceVersion>v13.06</resourceVersion>
+	</information>
+	<information category="Steps to reproduce">
+		<step1>open page https:/xxx/yyy/zzz</step1>
+		<step2>step on [User email] field</step2>
+		<step3>enter email qwerty@gmail.com</step3>
+		<step4>step on [Password] field</step4>
+		<step5>enter Password 123456789</step5>
+		<step6>push [Submit] button</step6>
+	</information>
+	<information category="Results">
+		<ExpectedResult>[Submit] button changes color to dark green while clicking, main page of the site is opening</ExpectedResult>
+		<ActualResult>“[Submit] button is not clickable, main page of the site is not opening</ActualResult>
+	</information>
+</BugReport>
