@@ -35,7 +35,7 @@ curl -u YourGitHubName:YourTokinORYourPassword https://api.github.com/user/repos
 
 **22. Клонировать репозиторий XML на локальный компьютер**
 - copy link of repository under `Code` button
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/XML/edit_picture5.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/XML/blob/24c6abef4919c79e192818fb66cba27828fc506a/edit_picture5.jpg)
 - commands:
 ```bash
 cd MyDirectory	//where new project to be placed locally
@@ -120,7 +120,7 @@ git push
 - go to GitHub, repository you`ve created
 - push `Add File` dropdown button
 - choose `Create new file`
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/XML/edit_picture4.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/XML/blob/24c6abef4919c79e192818fb66cba27828fc506a/edit_picture4.jpg)
 - name your file "bug-report.xml"
 
 **35. Сделать Commit changes (сохранить) изменения на веб интерфейсе**
@@ -128,13 +128,13 @@ git push
 - enter \{} to the edit field of the file
 - choose `Preview` tab
 - push `Commit your file` button
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/XML/edit_picture3.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/XML/blob/24c6abef4919c79e192818fb66cba27828fc506a/edit_picture3.jpg)
 
 **36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML**
 - go to main branch of repository
 - step on your file "bug-report.xml"
 - choose `edit` pictogram
-![how to find Edit](/C:/QA/KSENDZOV/HomeWorks/GITHUB/XML/edit_picture1.jpg)
+![how to find Edit](https://github.com/Olga-Ivasenko/XML/blob/24c6abef4919c79e192818fb66cba27828fc506a/edit_picture1.jpg)
 - enter xml data:
 [XML data](https://github.com/Olga-Ivasenko/XML/blob/0eff3fc73c1f8bc478b039584fd544ea9c329e3f/bug_report.xml)
 
@@ -142,7 +142,7 @@ git push
 - go down of edit file page
 - *optional*: add description
 - click `Commit changes` button
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/XML/edit_picture2.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/XML/blob/24c6abef4919c79e192818fb66cba27828fc506a/edit_picture2.jpg)
 
 **38. Синхронизировать внешний и локальный репозиторий XML**
 ```bash
