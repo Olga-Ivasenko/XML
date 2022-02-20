@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AboutMyself>
+	<information category="personal">
+		<Speciality>QA manual</Speciality>
+		<BestJobDirection>API integration testing</BestJobDirection>
+		<SalaryLevel>1000</SalaryLevel>
+		<Group>27</Group>
+		<SalaryLevel>1000</SalaryLevel>
+		<FirstName>Olga</FirstName>
+		<MyAge>49</MyAge>
+	</information>
+	<information category="mypet">
+		<MyPet>Cat</MyPet>
+		<PetName>Baja</PetName>
+		<PetAge>6</PetAge>
+	</information>
+</AboutMyself>
+
