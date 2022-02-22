@@ -103,15 +103,18 @@ vim sklls.xml // or without touch but save before closing
 [XML data](https://github.com/Olga-Ivasenko/XML/blob/0eff3fc73c1f8bc478b039584fd544ea9c329e3f/skills.xml)
 
 **32. Сделать коммит в одну строку**
+1) if all changed/added files from the list:
 ```bash
 cd XML
 git status
-git add skills.xml
-git add preferences.xml
-git status
-git commit -m "add two files" skills.xml preferences.xml
+git commit -am "add two files"
 ```
-
+2) if choosen files from the list:
+```bash
+cd XML
+git status
+git commit -am "add two files" skills.xml preferences.xml
+```
 **33. Отправить сразу 2 файла на внешний репозиторий**
 ```bash
 git push
@@ -148,8 +151,4 @@ git push
 ```bash
 cd XML
 git pull
-git add .
-git status
-git commite -m
-git push
 ```
